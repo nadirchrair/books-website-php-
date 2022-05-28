@@ -1,0 +1,136 @@
+a:hover{
+    text-decoration: none;
+}
+body{
+    background: #f9f9f9;
+font-family: janna lt;
+}
+.navbar{
+    background: #fff !important;
+    border-bottom: 1px solid #eee;
+}
+.banar{
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(/imgs/banar.jpg) no-repeat;
+background-position: center;
+background-size: cover;
+color: #fff;
+position: relative;
+height: 80vh;
+text-align: center;
+}
+.banar .lib-info{
+    padding-top: 140px;
+    margin: auto;
+}
+.banar .lib-info h4{
+    font-size: 65px;
+    font-weight: bold;
+    padding: 10px;
+}
+.banar .lib-info p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+line-height: 30px;
+}
+/**/
+.book-cover{
+    overflow: hidden;
+}
+.bok-cover img{
+    width: 100%;
+}
+.bok-content h4 a{
+    color: #555;
+}
+.bokk-content h4 a{
+    color: #777;
+    text-decoration: none;
+}
+.bok-content{
+    margin-top: 30px;
+}
+.bok-content p{
+    line-height: 30px;
+}
+/**/
+/*related books*/
+.related-books{
+    margin-top: 70px;
+
+
+}
+.related-book{
+    margin: 20px 0;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid#fff;
+}
+.cover{
+    overflow: hidden;
+}
+.cover img{
+width: 100%;
+
+}
+.title{
+    margin: 10px 0;
+}
+.title a{
+    color: #555;
+}
+.title a:hover{
+    color: #777;
+}
+/*end */
+/*start books*/
+.books{
+    margin: 50px 0;
+
+}
+.card{
+    margin-bottom: 30px;
+}
+.img-cover{
+height: 250px;
+overflow: hidden;
+}
+.img-cover .card-img-top{
+width: 100%;
+height: auto;
+display: block;
+}
+.card-title a{
+    color: #555;
+    transition:  0.3s;
+}
+.card-title a:hover{
+    text-decoration: none;
+    color: #777;
+}
+.card-text{
+    color: #777;
+    line-height: 30px;
+}
+.custom-btn{
+padding: 10px;
+border: 1px solid #555;
+outline: none;
+margin-bottom: 20px !important;
+transition: 0.3s;
+width: 90%;
+}
+.custom-btn:hover{
+    background: #555;
+    color: #fff;
+}
+.custom-btn a{
+    color: #555 !important;
+    font-size: 18px;
+    display: block;
+}
+.custom-btn a:hover{
+    text-decoration: none;
+    color: #fff !important;
+}
+/*end books*/
